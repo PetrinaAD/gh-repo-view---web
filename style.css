@@ -1,0 +1,97 @@
+
+@import url('https://use.fontawesome.com/releases/v5.0.10/css/all.css');
+
+body {
+    background-color: rgb(240,240,240);
+} 
+
+
+h1 {
+color:rgba(5, 87, 134, 0.548);
+font-family:'Times New Roman', Times, serifs;
+font-size: 25px;
+line-height 1.6em;
+}
+
+h2 {
+    color:rgba(5, 87, 134, 0.548);
+    font-family:opensans;
+    font-size: 25px;
+    line-height 1.6em;
+}
+a:hover {
+    color:#1B6295;
+text-decoration: underliness;
+}
+
+a{
+    font-weight: bold;
+    text-decoration: none;
+    color:#1B6295
+}
+.card-white {
+    background-color:rgba(124, 167, 170, 0.548);
+    padding: 24px;
+    margin: 24px auto;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    width: 500px;
+    text-align: center;
+    border-radius: 4px;
+}
+.container {
+    width: 500px;   
+    margin: 0 auto;
+  }
+.img-circle {
+width: 100px;
+border-radius:50%;
+}
+
+.btn-blue {
+background-color:rgba(67, 132, 216, 0.548);
+color:white;
+padding: 8px 24px;
+border-radius: 8px;
+
+}
+
+.btn-blue:hover {
+    background-color;
+    color: white;
+}
+.list-inline {
+    list-style: none;
+    padding: 0;
+}
+
+.list-inline li {
+display: inline-block;
+}
+
+.social-icon {
+font-size: 32px;
+color: rgb(220,220,220);
+margin: 8px 24px;
+}
+s
+.social-icon:hover {
+color: rgb(200,200,200)
+
+}
+
+@media (max-width: 960px) {
+    .container {
+      width: 700px;
+    }
+  }
+  @media (max-width: 720px) {
+    .container {
+      width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+    .container {
+      width: 300px;
+    }
+  }
+  
